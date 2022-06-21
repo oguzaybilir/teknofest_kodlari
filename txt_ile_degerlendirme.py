@@ -1,6 +1,6 @@
 import glob
 
-klasor_yolu = "dosya yolunu girin"
+klasor_yolu = "C:/Users/oguza/Desktop/etiketler/oturum_2_img/oturum6"
 
 txt_yollar = glob.glob(klasor_yolu + "/*.txt")
 count = 0
