@@ -32,5 +32,4 @@ while True:
     if s == 1:
         img[:] = [b,g,r]
 
-cv2.waitKey(0)
 cv2.destroyAllWindows()
