@@ -48,7 +48,7 @@ def dicomdan_png(dicom_dosya_yolu):
 
 
 def main():
-    dicom_formatindaki_resim="C:\\Users\\oguza\\Desktop\\saglik_etiketleri\\veriler\\9173666447.dcm"
+    dicom_formatindaki_resim="C:\\Users\\oguza\\Desktop\\saglik_etiketleri\\veriler\\10873356152.dcm"
     
     png_formatindaki_hali , ornek_numarasi = dicomdan_png(dicom_formatindaki_resim)
     cv2.imwrite(str(ornek_numarasi - 1).zfill(4) +".png",png_formatindaki_hali)
